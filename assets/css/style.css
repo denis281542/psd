@@ -30,10 +30,44 @@ h1, h2, h3, h4, h5, h6 {
 /*Header*/
 .header {
     width: 100%;
-    
+
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+/*Nav*/
+.nav {
+    font-size: 16px;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+
+    color: #88809b;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.nav__link:hover {
+    color: #fff;
 }
