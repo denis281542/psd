@@ -157,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     vertical-align: top;
     padding: 19px 87px;
+    transition: .1s linear;
 
     border-radius: 40px;
     background-color: #1471a7;
