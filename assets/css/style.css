@@ -159,10 +159,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 19px 87px;
 
     border-radius: 40px;
-    background-color: #06ba9e;
+    background-color: #1471a7;
 
     font-size: 14px;
     font-weight: 400;
     color: #fff;
     text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #06ba9e;
 }
