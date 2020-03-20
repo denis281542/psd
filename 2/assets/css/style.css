@@ -4,7 +4,42 @@ body {
     background: #eaeaea;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .logo {
+    display: flex;
+    margin: 250px auto 120px;
+}
+
+.header_inner {
+    
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 1120px;
+    height: 125px;
+    background: #f8f8f8;
     display: block;
-    margin: 250px auto;
+    margin: auto;
+    box-shadow: 0 0 5px #dadada;
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
