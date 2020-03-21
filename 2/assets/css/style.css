@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    width: 1440px;
+  
     background: #eaeaea;
 }
 
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     display: flex;
-    margin: 250px auto 120px;
+    margin: 250px auto;
 }
 
 .header_inner {
@@ -39,7 +39,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+.logo_mini {
+    margin: 45px 95px;
+}
+
+.nav-link {
+    text-decoration: none;
     font-size: 16px;
     font-weight: 300;
-    text-transform: uppercase;
+    color: #000000;
+    display: inline-block;
+    margin: 60px 12px;
 }
